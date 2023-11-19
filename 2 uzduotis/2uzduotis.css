@@ -9,7 +9,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    height: 80vh;
+    height: 100%;
     gap: 5px;
 }
 img{
@@ -98,183 +98,12 @@ img{
     grid-area: 3 / 7 / 6 / 9;
     position: relative;
 }
-.image1 .pirmas {
+:is(.image-text-1,.image-text-2,.image-text-3,.image-text-4,.image-text-5,.image-text-6,.image-text-7,.image-text-8,.image-text-9,.image-text-10,.image-text-11,.image-text-12,.image-text-13,.image-text-14,.image-text-15,.image-text-16,.image-text-17,.image-text-18,.image-text-19,.image-text-20) {
     display: none;
 }
-.image1:hover img {
+:is(.image1:hover img,.image2:hover img,.image3:hover img,.image4:hover img,.image5:hover img,.image6:hover img,.image7:hover img,.image8:hover img,.image9:hover img,.image10:hover img,.image11:hover img,.image12:hover img,.image13:hover img,.image14:hover img,.image15:hover img,.image16:hover img,.image17:hover img,.image18:hover img,.image19:hover img,.image20:hover img) {
     filter: brightness(0.2);
 }
-.image1:hover .pirmas {
-    display: block;
-}
-.image2 .antras {
-    display: none;
-}
-.image2:hover img {
-    filter: brightness(0.2);
-}
-.image2:hover .antras {
-    display: block;
-}
-.image3 .trecias {
-    display: none;
-}
-.image3:hover img {
-    filter: brightness(0.2);
-}
-.image3:hover .trecias {
-    display: block;
-}
-.image4 .ketvirtas {
-    display: none;
-}
-.image4:hover img {
-    filter: brightness(0.2);
-}
-.image4:hover .ketvirtas {
-    display: block;
-}
-.image5 .penktas {
-    display: none;
-}
-.image5:hover img {
-    filter: brightness(0.2);
-}
-.image5:hover .penktas {
-    display: block;
-}
-.image6 .sestas {
-    display: none;
-}
-.image6:hover img {
-    filter: brightness(0.2);
-}
-.image6:hover .sestas {
-    display: block;
-}
-.image7 .septintas {
-    display: none;
-}
-.image7:hover img {
-    filter: brightness(0.3);
-}
-.image7:hover .septintas {
-    display: block;
-}
-.image8 .astuntas {
-    display: none;
-}
-.image8:hover img {
-    filter: brightness(0.3);
-}
-.image8:hover .astuntas {
-    display: block;
-}
-.image9 .devintas {
-    display: none;
-}
-.image9:hover img {
-    filter: brightness(0.3);
-}
-.image9:hover .devintas {
-    display: block;
-}
-.image10 .desimtas {
-    display: none;
-}
-.image10:hover img {
-    filter: brightness(0.3);
-}
-.image10:hover .desimtas {
-    display: block;
-}
-.image11 .vienuoliktas {
-    display: none;
-}
-.image11:hover img {
-    filter: brightness(0.3);
-}
-.image11:hover .vienuoliktas {
-    display: block;
-}
-.image12 .dvyliktas {
-    display: none;
-}
-.image12:hover img {
-    filter: brightness(0.3);
-}
-.image12:hover .dvyliktas {
-    display: block;
-}
-.image13 .tryliktas {
-    display: none;
-}
-.image13:hover img {
-    filter: brightness(0.3);
-}
-.image13:hover .tryliktas {
-    display: block;
-}
-.image14 .keturioliktas {
-    display: none;
-}
-.image14:hover img {
-    filter: brightness(0.3);
-}
-.image14:hover .keturioliktas {
-    display: block;
-}
-.image15 .penkioliktas {
-    display: none;
-}
-.image15:hover img {
-    filter: brightness(0.3);
-}
-.image15:hover .penkioliktas {
-    display: block;
-}
-.image16 .sesioliktas {
-    display: none;
-}
-.image16:hover img {
-    filter: brightness(0.3);
-}
-.image16:hover .sesioliktas {
-    display: block;
-}
-.image17 .septinioliktas {
-    display: none;
-}
-.image17:hover img {
-    filter: brightness(0.3);
-}
-.image17:hover .septinioliktas {
-    display: block;
-}
-.image18 .astonioliktas {
-    display: none;
-}
-.image18:hover img {
-    filter: brightness(0.3);
-}
-.image18:hover .astonioliktas {
-    display: block;
-}
-.image19 .devinioliktas {
-    display: none;
-}
-.image19:hover img {
-    filter: brightness(0.3);
-}
-.image19:hover .devinioliktas {
-    display: block;
-}
-.image20 .dvidesimtas {
-    display: none;
-}
-.image20:hover img {
-    filter: brightness(0.3);
-}
-.image20:hover .dvidesimtas {
+:is(.image1:hover .image-text-1,.image2:hover .image-text-2,.image3:hover .image-text-3,.image4:hover .image-text-4,.image5:hover .image-text-5,.image6:hover .image-text-6,.image7:hover .image-text-7,.image8:hover .image-text-8,.image9:hover .image-text-9,.image10:hover .image-text-10,.image11:hover .image-text-11,.image12:hover .image-text-12,.image13:hover .image-text-13,.image14:hover .image-text-14,.image15:hover .image-text-15,.image16:hover .image-text-16,.image17:hover .image-text-17,.image18:hover .image-text-18,.image19:hover .image-text-19,.image20:hover .image-text-20) {
     display: block;
 }

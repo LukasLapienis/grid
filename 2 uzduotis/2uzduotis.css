@@ -98,12 +98,12 @@ img{
     grid-area: 3 / 7 / 6 / 9;
     position: relative;
 }
-:is(.image-text-1,.image-text-2,.image-text-3,.image-text-4,.image-text-5,.image-text-6,.image-text-7,.image-text-8,.image-text-9,.image-text-10,.image-text-11,.image-text-12,.image-text-13,.image-text-14,.image-text-15,.image-text-16,.image-text-17,.image-text-18,.image-text-19,.image-text-20) {
+.image-text-1,.image-text-2,.image-text-3,.image-text-4,.image-text-5,.image-text-6,.image-text-7,.image-text-8,.image-text-9,.image-text-10,.image-text-11,.image-text-12,.image-text-13,.image-text-14,.image-text-15,.image-text-16,.image-text-17,.image-text-18,.image-text-19,.image-text-20 {
     display: none;
 }
-:is(.image1:hover img,.image2:hover img,.image3:hover img,.image4:hover img,.image5:hover img,.image6:hover img,.image7:hover img,.image8:hover img,.image9:hover img,.image10:hover img,.image11:hover img,.image12:hover img,.image13:hover img,.image14:hover img,.image15:hover img,.image16:hover img,.image17:hover img,.image18:hover img,.image19:hover img,.image20:hover img) {
+.image1:hover img,.image2:hover img,.image3:hover img,.image4:hover img,.image5:hover img,.image6:hover img,.image7:hover img,.image8:hover img,.image9:hover img,.image10:hover img,.image11:hover img,.image12:hover img,.image13:hover img,.image14:hover img,.image15:hover img,.image16:hover img,.image17:hover img,.image18:hover img,.image19:hover img,.image20:hover img {
     filter: brightness(0.2);
 }
-:is(.image1:hover .image-text-1,.image2:hover .image-text-2,.image3:hover .image-text-3,.image4:hover .image-text-4,.image5:hover .image-text-5,.image6:hover .image-text-6,.image7:hover .image-text-7,.image8:hover .image-text-8,.image9:hover .image-text-9,.image10:hover .image-text-10,.image11:hover .image-text-11,.image12:hover .image-text-12,.image13:hover .image-text-13,.image14:hover .image-text-14,.image15:hover .image-text-15,.image16:hover .image-text-16,.image17:hover .image-text-17,.image18:hover .image-text-18,.image19:hover .image-text-19,.image20:hover .image-text-20) {
+.image1:hover .image-text-1,.image2:hover .image-text-2,.image3:hover .image-text-3,.image4:hover .image-text-4,.image5:hover .image-text-5,.image6:hover .image-text-6,.image7:hover .image-text-7,.image8:hover .image-text-8,.image9:hover .image-text-9,.image10:hover .image-text-10,.image11:hover .image-text-11,.image12:hover .image-text-12,.image13:hover .image-text-13,.image14:hover .image-text-14,.image15:hover .image-text-15,.image16:hover .image-text-16,.image17:hover .image-text-17,.image18:hover .image-text-18,.image19:hover .image-text-19,.image20:hover .image-text-20 {
     display: block;
 }

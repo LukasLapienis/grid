@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    height: 100vh;
+    max-height: 100vh;
     gap: 5px;
 }
 .image1 {
@@ -65,45 +65,26 @@
 .image20 {
     grid-area: 3 / 7 / 6 / 9;
 }
-.image1,
-.image2,
-.image3,
-.image4,
-.image5,
-.image6,
-.image7,
-.image8,
-.image9,
-.image10,
-.image11,
-.image12,
-.image13,
-.image14,
-.image15,
-.image16,
-.image17,
-.image18,
-.image19,
-.image20 {
+.container div {
     position: relative;
+    display: grid;
 }
 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
     display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 [class^="image"]:hover img {
     filter: brightness(0.2);
 }
 h1 {
-    text-align: center;
+    align-self: center;
     color: white;
-    position: absolute;
-    top: 45%;
-    width: 100%;
-    margin: auto;
     font-size: 2.5vw;
+    justify-self: center;
+    position: absolute;
+    text-align: center;
 }
 [class^="image"]:hover h1 {
     display: block;

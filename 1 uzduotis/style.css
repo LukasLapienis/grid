@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.timetable > * {
+    border-radius: 10px;
+}
+
+.timetable {
+    display: grid;
+    grid-template: repeat(11, 1fr) / 60px repeat(7, 1fr);
+    gap: 5px;
+    width: 768px;
+    height: 650px;
+}
+
+.timetable-head, .timetable-time {
+    background-color: rgba(211, 211, 211, 0.361);
+}
+
+.timetable h3 {
+    font-weight: 500;
+}
+
+.time1 {
+    grid-row-start: 2;
+}
+
+.time2 {
+    grid-row-start: 3;
+}
+
+.time3 {
+    grid-row-start: 4;
+}
+
+.time4 {
+    grid-row-start: 5;
+}
+
+.time4 p, .time7 p {
+    background-color: lightsalmon;
+}
+
+.time5 {
+    grid-row-start: 6;
+}
+
+.time6 {
+    grid-row-start: 7;
+}
+
+.time7 {
+    grid-row-start: 8;
+}
+
+.time8 {
+    grid-row-start: 9;
+}
+
+.time9 {
+    grid-row-start: 10;
+}
+
+.time10 {
+    grid-row-start: 11;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+
+.timetable-talk1 {
+    grid-area: 2 / 2 / 5 / 4;
+    background-color: lightblue;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 3fr 1fr 1fr 1fr 2fr;
+}
+
+.timetable-talk2-3 {
+    grid-area: 6 / 2 / 8 / 5;
+    background-color: lightblue;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
+
+}
+
+.timetable-talk4 {
+    grid-area: 2 / 4 / 6 / 5;
+    background-color: lightgreen;
+    display: grid;
+    align-items: end;
+    justify-content: center;
+    grid-template-rows: 3fr 1fr 1fr 1fr 2fr;
+
+}
+
+.timetable-talk5 {
+    grid-area: 2 / 5 / 3 / 7;
+    background-color: lightcoral;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.timetable-talk6 {
+    grid-area: 4 / 5 / 8 / 7;
+    background-color: lightcoral;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 3fr 1fr 1fr 1fr 2fr;
+}
+
+.timetable-talk7 {
+    grid-area: 9 / 2 / 12 / 4;
+    background-color: lightblue;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 3fr 1fr 1fr 1fr 2fr;
+}
+
+.timetable-talk8 {
+    grid-area: 10 / 4 / 12 / 7;
+    background-color: lightgreen;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
+}
+
+.timetable-talk9 {
+    grid-area: 2 / 7 / 8 / 9;
+    background-color: lightyellow;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 3fr 1fr 1fr 1fr 2fr;
+}
+
+.timetable-talk10 {
+    grid-area: 9 / 7 / 12 / 9;
+    background-color: lightyellow;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 3fr 1fr 1fr 1fr 2fr;
+}
+
+/* timetable breaks */
+
+
+.timetable-break1 {
+    grid-area: 3 / 5 / 4 / 7;
+    background-color: lightgray;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.timetable-break2 {
+    grid-area: 5 / 2 / 6 / 4;
+    background-color: lightgray;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.timetable-break3 {
+    grid-area: 8 / 2 / 9 / 9;
+    background-color: lightgray;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+[class^="timetable-head"], [class^="timetable-time"] {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
